@@ -1,0 +1,36 @@
+
+.navbar-custom {
+    display: flex;
+    padding: 10px 20px;
+    grid-auto-flow: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: cyan;
+}
+.nav-link {
+    list-style-type: none;
+    display: flex;
+}
+.navbar li {
+    margin-right: 20px;
+    text-decoration: rgb(41, 219, 85);
+}
+.navbar a{
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.logo #LogoATE {
+    max-width: 50%; /* Cambia el valor según tus necesidades */
+    max-height: 50%; /* Cambia el valor según tus necesidades */
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
